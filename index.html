@@ -4,25 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="dist/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Web Sekolah</title>
   </head>
-  <body>
-    <header>
-      <nav class="flex justify-between">
-        <div>
-          <a href="#" class="text-lg">PENUS</a>
+  <body class="scroll-smooth box-border font-[Quicksand]">
+    <!-- Navbar Section -->
+    <header class="">
+      <nav
+        class="flex justify-between my-7 text-lg max-w-screen-2xl mx-auto font-semibold"
+      >
+        <!-- Navbar Brand -->
+        <div class="items-center px-5">
+          <a href="#home" class="font-bold text-2xl">Penus</a>
         </div>
-        <div>
-          <ul class="text-lg flex flex-row">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#profil">Profil</a></li>
-            <li><a href="#berita">Berita</a></li>
-            <li><a href="#jurusan">Jurusan</a></li>
-            <li><a href="#kurikulum">Kurikulum</a></li>
-            <li><a href="#kontak">Kontak</a></li>
-          </ul>
-        </div>
+        <!-- Navbar Buttons -->
+        <ul class="flex flex-row items-center">
+          <li><a href="#home" class="px-5">Home</a></li>
+          <li><a href="#profil" class="px-5">Profil</a></li>
+          <li><a href="#berita" class="px-5">Berita</a></li>
+          <li><a href="#jurusan" class="px-5">Jurusan</a></li>
+          <li><a href="#kurikulum" class="px-5">Kurikulum</a></li>
+          <li><a href="#kontak" class="px-5">Kontak</a></li>
+        </ul>
       </nav>
     </header>
   </body>
